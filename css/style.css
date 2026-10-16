@@ -76,7 +76,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-bottom: 20px;
+        padding-bottom: ;
     }
     .hero{
         flex-wrap: wrap;
