@@ -71,3 +71,32 @@ footer{
     background-color: #F4F6FB;
     padding: 20px 40px;
 }
+ @media only screen and (max-width: 375px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+    .hero{
+        flex-wrap: wrap;
+    }
+    .hero-img-text{
+        display: flex;
+    }
+    .cards{
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .otro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-title{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
